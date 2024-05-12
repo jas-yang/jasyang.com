@@ -9,7 +9,7 @@ I also love watching sunsets 🌅, driving cool cars 🚗, and watching sunsets 
 
 This is a simple static site that serves as my personal landing page and a place to write things down that I want to look back on. 
 
-I didn't want to add another blog styled personal website talking about various software engineering concepts created by a career software engineer to the millions of portfolio wbesites that already exist. I created this site because I want a space to write down my thoughts and reactions to whatever I encounter throughout my career over the years, be it about software or about something more personal. If you want to get a better understanding of my technical background, refer to my [resume](/resume).
+I didn't want to add another blog styled personal website talking about various software engineering topics created by a career software engineer to the millions of portfolio websites that already exist. I created this site because I want a space to write down my thoughts and reactions to whatever I encounter throughout my career over the years, be it about software or about something more personal. If you want to get a better understanding of my technical background, refer to my [resume](/resume).
 
 
 ###  📱 Contact Me
