@@ -1,10 +1,2 @@
 .jekyll-cache
-/assets/pdfjs/*
-!/assets/pdfjs/web/viewer.html
-!/assets/pdfjs/web/viewer.css
-!/assets/pdfjs/web/viewer.js
-!/assets/pdfjs/build/pdf.js
-!/assets/pdfjs/build/pdf.worker.js
-
-_site/
 
