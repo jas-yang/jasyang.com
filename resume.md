@@ -5,12 +5,13 @@ permalink: /resume/
 ---
 
 <div style="max-width: 1000px; margin: 0 auto; padding: 1rem;">
-  <iframe 
+<iframe 
     src="/assets/pdfjs/web/viewer.html?file=/assets/jason-yang-resume-2025.pdf" 
     width="100%" 
     height="900" 
     style="border: none;">
-  </iframe>
+</iframe>
+
 
 <div style="text-align: center; margin-top: 1rem;">
   <a href="/assets/jason-yang-resume-2025.pdf" download style="
