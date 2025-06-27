@@ -1,18 +1,117 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<head>
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <title>Jason Yang – Software Engineer in NYC</title>
+
+  <meta charset="utf-8" />
+  <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+
+  <meta name="description" content="Software Engineer in NYC">
+  <meta property="og:description" content="Software Engineer in NYC" />
+
+  <meta name="author" content="Jason Yang" />
+
+
+
+  <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="Jason Yang - Software Engineer in NYC" href="/feed.xml" />
+
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="/" class="site-avatar"><img src="https://github.com/jas-yang.png" /></a>
+
+        <div class="site-info">
+          <h1 class="site-name"><a href="/">Jason Yang</a></h1>
+          <p class="site-description">Software Engineer in NYC</p>
+        </div>
+
+        <nav>
+          <a href="/resume">Resume</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <div id="main" role="main" class="container">
+    <article class="page">
+
+      <h1></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <p>Hey — I’m a CS grad from MIT 🎓, originally from LA and now based in NYC 🏙️. I spend my time building
+          systems that drive meaningful products, <em>especially</em> ones where thoughtful engineering makes a real
+          difference.</p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <p>At <a href="https://regard.com">Regard</a>, I’ve led backend and AI infrastructure projects that help doctors
+          work smarter and faster. From streamlining how diagnoses are created to designing a multi-agent AI note
+          editor, I enjoy solving messy problems and making tools that scale.</p>
+
+        <p>Outside of work, you’ll usually find me:</p>
+        <ul>
+          <li>Lifting at the gym 🏋🏻</li>
+          <li>Chasing sunsets whenever I can 🌅</li>
+          <li>Experimenting with new techniques in the kitchen 🍳</li>
+          <li>Or writing little scripts to fix annoyances—then sharing them with the team 😄</li>
+        </ul>
+
+        <p>This site is a simple space to share more about me and occasionally write down thoughts I want to revisit. If
+          you’re curious about my technical background, check out my <a href="/resume">resume</a>.</p>
+
+        <h3 id="-contact-me">📱 Contact Me</h3>
+        <p>Email: <a href="mailto:jas.yang71@gmail.com">jas.yang71@gmail.com</a></p>
+
+        <p>Always happy to chat—whether it’s about a project, a problem, or just to connect.</p>
+
+      </div>
     </article>
-  {% endfor %}
-</div>
+
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+
+        <a href="mailto:jas.yang71@gmail.com"><i class="svg-icon email"></i></a>
+
+
+
+
+        <a href="https://www.linkedin.com/in/jasyang"><i class="svg-icon linkedin"></i></a>
+
+
+
+
+
+
+      </footer>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
